@@ -127,7 +127,6 @@ export const useGlobalStyles = () => {
       .btn-premium{
         background:linear-gradient(135deg, #e63946 0%, #a41623 100%);
         border:1px solid rgba(230,57,70,0.5);
-        border-radius:18px;
         color:#fff;
         cursor:pointer;
         position:relative;

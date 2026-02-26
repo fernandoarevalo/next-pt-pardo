@@ -51,7 +51,7 @@ export function HomeScreen({ t, onStart, onToggleLang }) {
           <button
             type="button"
             onClick={onStart}
-            className="btn-premium glow-accent w-full py-4 px-14 text-sm tracking-widest font-bold uppercase"
+            className="btn-premium glow-accent w-full py-4 px-14 text-sm tracking-widest font-bold uppercase btn-clip flex-[2] py-3 border border-[#e8e8e8] bg-[#e8e8e8] text-black cursor-pointer font-bold tracking-[3px]"
           >
             {t.start}
           </button>
